@@ -18,9 +18,9 @@ const Principal = ({ navigation }) => {
 
         <TouchableOpacity
           style={styles.button}
-          onPress={() => navigateToPage("PushNotification")}
+          onPress={() => navigateToPage("Clipboardashei")}
         >
-          <Text style={styles.buttonText}>PushNotification</Text>
+          <Text style={styles.buttonText}>Clipboardashei</Text>
         </TouchableOpacity>
 
         <TouchableOpacity

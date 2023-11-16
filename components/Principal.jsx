@@ -25,16 +25,16 @@ const Principal = ({ navigation }) => {
 
         <TouchableOpacity
           style={styles.button}
-          onPress={() => navigateToPage("Pagina3")}
+          onPress={() => navigateToPage("Camara")}
         >
-          <Text style={styles.buttonText}>Página 3</Text>
+          <Text style={styles.buttonText}>Camara</Text>
         </TouchableOpacity>
 
         <TouchableOpacity
           style={styles.button}
-          onPress={() => navigateToPage("Pagina4")}
+          onPress={() => navigateToPage("Qr")}
         >
-          <Text style={styles.buttonText}>Página 4</Text>
+          <Text style={styles.buttonText}>Qr</Text>
         </TouchableOpacity>
       </View>
     </View>
